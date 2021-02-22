@@ -29,8 +29,5 @@
 
 | Titre | Style |
 |---|---|
-<<<<<<< HEAD
 |[Fatboy Slim - Praise You](https://www.youtube.com/watch?v=ruAi4VBoBSM) | UK Big Beat | Funk |
-=======
 |[Fatboy Slim - Praise You](https://www.youtube.com/watch?v=ruAi4VBoBSM) | UK Big Beat | ElectroSoul|
->>>>>>> michel
