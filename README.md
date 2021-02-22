@@ -60,3 +60,69 @@
 
 ---
 
+## git remote
+
+- avec add, on donne une adresse distante où envoyer notre dépôt local
+
+    - `git remote add origin (nom par défaut) git@github.com:xxx (adresse ssh du dépôt)`
+
+- avec -v, on liste les adresses distantes enregistrées
+
+    - `git remote -v`
+
+---
+
+## git push
+
+- lors du 1er envoi, il faut lier la branche locale courante à une branche du dépôt distant
+
+    - `git push --set-upstream (ou -u) origin (dépôt distant) master (branche distante)`
+
+- lors des envois de mise à jour, git saura comment lier cette branche à une branche distante
+
+    - `git push`
+
+- On peut également pusher sur d'autres branches que la branche principale en indiquant le nom complet de la branche distante
+  - `git push origin <nom_branche>`
+
+---
+
+## git branch
+
+- depuis la branche courante, on peut créer une nouvelle branche ET rester dans la branche courante
+
+- si on est sur la branche master, `git branch henriette` va créer la branche henriette mais on restera sur la branche master
+
+    - `git branch <nom_branche>`
+    - `git checkout <nom_branche>`
+
+- Astuce : on peut créer une nouvelle branche et se positionner dessus directement
+
+    `git checkout -b <nom_branche>`
+
+- on peut supprimer une branche en local
+
+    - avec un warning si la branche n'a pas été pushée sur la branche distante
+
+        - `git branch -d <nom_branche>`
+
+    - sans warning ni vérification
+
+        - `git branch -D <nom_branche>`
+
+---
+
+## git checkout
+
+- permet de se placer sur un commit avec son id ou sur une branche avec son nom
+
+    - `git checkout f1529e320bb68d15aed5bb87ac625732c886709f` se place sur le commit indiqué (marche aussi avec la version courte de l'id)
+
+    - `git checkout <nom_branche>` se place sur la branche indiquée
+
+- permet aussi de remettre un fichier local dans le même état que sur la branche distante
+
+    - `git checkout <nom_fichier>`
+
+---
+
