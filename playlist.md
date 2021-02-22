@@ -29,4 +29,4 @@
 
 | Titre | Style |
 |---|---|
-|[Fatboy Slim - Praise You](https://www.youtube.com/watch?v=ruAi4VBoBSM) | UK Big Beat |
+|[Fatboy Slim - Praise You](https://www.youtube.com/watch?v=ruAi4VBoBSM) | UK Big Beat | ElectroSoul|
